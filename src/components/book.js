@@ -12,6 +12,7 @@ export const Book = ({ book, handleshelfChange, shelf }) => {
             className="book-cover"
             onClick={() => history.push(`books/${book.id}`)}
             style={{
+              cursor: "pointer",
               width: 128,
               height: 193,
               backgroundImage: `url("${
